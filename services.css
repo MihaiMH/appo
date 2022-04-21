@@ -1,0 +1,24 @@
+.service-item{
+    width:calc(100%-60px);
+    text-align: center;
+    margin:15px;
+    padding:15px;
+    box-shadow: 2px 0 5px 5px #c8c8c8;
+    border-radius: 10px;
+}
+
+.service-item p{
+ color:#a5b0c7;
+ margin:0;
+}
+
+@media only screen and (min-width:900px){
+    .service-item{
+        width:calc(25%-60px);
+}
+
+.services-items{
+    display :flex;
+
+}
+}

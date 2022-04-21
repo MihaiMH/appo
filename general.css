@@ -7,13 +7,44 @@
     font-size: 14px;
 }
 
+button{
+    font-family: 'Dionis', sans-serif;    
+}
+
 body {
     margin: 0;
+    font-family: 'Dionis', sans-serif;
 }
+
+h2{
+    color: #233140;
+    font-size: 30px;
+    font-weight:900;
+    text-align:center;
+}
+
+h3{
+    color: #233140;
+    font-weight:900;
+    text-align:center;
+}
+section {
+    padding: 100px 0;
+}
+
 
 .content{
     max-width: 1200px;
     margin: auto;
     padding: 0 15px;
+}
+
+.wrapper{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(000,000,000,0.5);
 }
 
